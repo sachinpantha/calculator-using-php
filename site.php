@@ -94,6 +94,13 @@
         color: white;
         background-color: grey;
 }
+body{
+    background-color:blueviolet;
+}
+.marq{
+    font-style: italic;
+    color:  white;
+}
     </style>
 </head>
 <body>
@@ -131,5 +138,6 @@
         ?>
         </fieldset>
     </form>
+    <marquee class="marq">This is created by Sachin Pantha. You are not allowed to copy this project!!!</marquee>
 </body>
 </html>
