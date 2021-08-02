@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <style>
         .first,.second{
             font-family: 'Caveat', cursive;
@@ -23,6 +24,7 @@
             border: 1px solid black;
             border-radius: 50px;
             text-align: center;
+            font-family: 'Open Sans', sans-serif;
         }
         .button{
             border: 1px solid black;
@@ -38,6 +40,10 @@
             border-radius: 5px;
             float: left;
             background-color: lightgrey;
+            margin-top:0px;
+            margin-left:25%;
+            margin-top:5%;
+            text-align:center;
         }
         .button{
             border: 1px solid black;
@@ -50,12 +56,13 @@
             padding-left:6px;
         }
         .image{
-            margin-top: -5px;
-            margin-left: auto;
-            margin-bottom: -81px;
-            margin-right: -3px;
-            display: block;
-            padding: 3px;
+            
+        margin-top: -2px;
+        margin-left: 240px;
+        margin-bottom: -92px;
+        margin-right: -17px;
+        display: block;
+        padding: 3px;
         }
         button:link,button:visited{
         background-color: rgb(15, 153, 199);
@@ -87,12 +94,6 @@
         color: white;
         background-color: grey;
 }
-        .facebook,.instagram{
-
-        padding: 1px 6px 1px 6px;
-        font-family: "Sofia", sans-serif;
-        }
-
     </style>
 </head>
 <body>
@@ -130,10 +131,5 @@
         ?>
         </fieldset>
     </form>
-    <p class="credit">This Calculator is made by Sachin Pantha <br> You can follow him on social media platforms by clicking the link below!!</p>
-    <img src="facebook.png" height="20px" width="20px" alt="" class="logo">
-    <a href="https://www.facebook.com/sachin.nihc" target="_blank" class="facebook">Facebook</a><br><br>
-    <img src="283-2831746_insta-icon-instagram.png"  height="22px" width="22px" alt="">
-    <a href="https://www.instagram.com/thesachin_vines/" target="_blank" class="instagram">Instagram</a>
 </body>
 </html>
